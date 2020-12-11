@@ -1,0 +1,183 @@
+body {
+  font-family: 'Cinzel', serif;
+}
+
+hr {
+  border: none;
+  height: .5rem;
+  margin: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 400px) {
+  #stay p {
+    word-wrap: break-word;
+  }
+}
+
+@media (max-width: 597px) {
+  #title {
+    padding: 15%;
+  }
+  .city-img {
+    display: none;
+  }
+  .side-text {
+    display: none;
+  }
+}
+
+@media (max-width: 757px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #stay h2 {
+    font-size: 2.7rem;
+    padding: 3rem;
+  }
+  .contact-info {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 997px) {
+  .scorpiosign {
+    display: none;
+  }
+
+  #ammenities {
+    text-align: center;
+  }
+
+  #ammenities img {
+    width: 25%;
+  }
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding: 1% 14% 0;
+}
+
+.navbar-brand {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2.5rem;
+}
+
+
+/* Title Section */
+
+#title {
+  margin: 3% auto;
+}
+
+.city-img {
+  border: 0.3rem solid #000 !important;
+
+}
+
+.title-right {
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.side-text {
+  font-size: 1.2rem;
+  letter-spacing: .5rem;
+  width: 95%;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  padding: 1rem;
+  margin: -2rem -2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.hotel-name-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.h2-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.scorpiosign {
+  width: 20%;
+  position: absolute;
+  left: 42%;
+  top: 12%;
+  z-index: -1;
+  opacity: .3;
+}
+
+
+/* Ammenities */
+
+#ammenities {
+  background-color: #000;
+  color: #fff;
+  padding: 3%;
+  line-height: 1.5;
+}
+
+.ammenities-img {
+  width: 90%;
+  filter: grayscale(70%);
+  margin: 0 auto 5%;
+  border: 0.3rem solid #fff;
+}
+
+.ammenities-img-special {
+  width: 82%;    /* to flow with other imgs */
+}
+
+.ammenities-headings h3 {
+  font-size: 1.7rem;
+}
+
+#ammenities p {
+  font-size: 1rem;
+}
+
+/* Stay */
+
+footer {
+  padding-bottom: 0!important;
+}
+
+#stay {
+  padding: 3% 5% 3% 0;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+}
+
+#stay img {
+  filter: grayscale(70%);
+}
+
+#stay h2 {
+  font-size: 2.7rem;
+  padding-bottom: 3rem;
+}
+
+#stay h3 {
+  font-size: 1.4rem;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.copyright {
+  font-size: .5rem;
+  text-align: center;
+  padding-top: 3%;
+}
